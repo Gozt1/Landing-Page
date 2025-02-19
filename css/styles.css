@@ -1,0 +1,204 @@
+body {
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+
+.primerbarra {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+}
+
+.logoizquierda img {
+    width: 200px;
+    height: 80px;
+    margin-right: auto;
+}
+
+.links {
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
+    gap: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.links a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+}
+
+/* Inicio */
+
+.hero {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.hero-separacion {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 190px;
+}
+
+.textoheader1{
+    font-size: 27px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #03f2ffb8;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
+.hero button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-image img {
+    width: 500px;
+    height: 350px;
+}
+
+/* Fotos animales y texto */
+
+.content {
+    align-items: center;
+}
+
+.content-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content-info img {
+    width: 200px;
+    height: 230px;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    margin: 10px 80px 0px 0px;
+}
+
+/* Texto sabio */
+
+.frase {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 200px;
+}
+
+.frase p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
+
+.frase b {
+    padding-bottom: 30px;
+    padding-right: 450px;
+    font-family: 'Roboto', arial;
+    text-align: right;
+}
+
+/* Inicio de sesion */
+.sign-up {
+    background-color: #3882F6 ;
+    margin: 50px 400px;
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.sign-boton {
+    flex: 1;
+}
+
+.signs-texto {
+    text-align: left;
+}
+
+.signs-texto p {
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.boton-abajo button {
+    color: #fffefe;
+    font-family: 'Roboto', arial;
+    border-color: #ffffff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 10px;
+}
+
+.textobajofotos {
+    width: 200px;
+    height: 230px;
+    text-align: center;
+}
+
+
+.ourpetsmargin{
+    margin: 50px;
+    font-size: 40px;
+    color: #1F2937;
+}
